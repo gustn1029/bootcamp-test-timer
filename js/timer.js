@@ -27,7 +27,6 @@ inputArr.forEach((el) => {
 const startTimer = () => {
   if (isPause) {
     isPause = false;
-    pauseBtn.classList.add("hidden");
   } else {
     startBtn.classList.add("hidden");
     pauseBtn.classList.remove("hidden");
