@@ -69,6 +69,7 @@ const startTimer = () => {
           secondsInput.value = "00";
           clearInterval(interval);
           startBtn.classList.remove("active");
+          pauseBtn.classList.add("hidden");
           resetBtn.classList.remove("active");
 
           inputArr.forEach((el) => {
