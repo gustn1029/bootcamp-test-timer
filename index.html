@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>타이머</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/timer.js" defer></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <h1>weniv 타이머</h1>
+      </header>
+      <section>
+        <h2>timer</h2>
+        <div class="input__wrap">
+          <label for="hours">
+            <span>hrs</span>
+            <input type="number" id="hours" min="0" max="99" />
+          </label>
+          <label for="minutes">
+            <span>min</span>
+            <input type="number" id="minutes" min="0" max="99" />
+          </label>
+          <label for="seconds">
+            <span>sec</span>
+            <input
+              type="number"
+              id="seconds"
+              min="0"
+              max="99"
+            />
+          </label>
+        </div>
+        <div class="btn__wrap">
+          <button class="start__btn" type="button">START</button>
+          <button class="pause__btn hidden" type="button">PAUSE</button>
+          <button class="reset__btn" type="button">RESET</button>
+        </div>
+      </section>
+      <footer>
+        <p>ⓒ WENIV Corp.</p>
+      </footer>
+    </div>
+  </body>
+</html>
